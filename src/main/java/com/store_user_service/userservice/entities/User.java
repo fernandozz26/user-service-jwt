@@ -16,8 +16,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
+@Builder
 @Table(name = "user")
 public class User implements Serializable{
     private static final long serialVersionUID = 1L;

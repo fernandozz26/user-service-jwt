@@ -15,7 +15,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class NewUser {
     @NotBlank
     private String firstName;
